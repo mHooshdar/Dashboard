@@ -1,0 +1,1 @@
+!function(){var t=document.querySelector("digiclock"),n=function(t){return t<10?"0"+t:t},e=function(){var e=new Date,o=[n(e.getHours()),n(e.getMinutes()),n(e.getSeconds())].join(":");t.innerHTML=o};e(),setInterval(e,1e3)}(),$(".noty").click(function(t){t.preventDefault();var n=$.parseJSON($(this).attr("data-noty-options"));noty(n)});
