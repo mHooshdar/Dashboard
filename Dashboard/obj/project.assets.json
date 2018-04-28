@@ -13125,28 +13125,33 @@
     ]
   },
   "packageFolders": {
-    "/home/mohammad/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\z.mashhadizadeh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mohammad/Desktop/backupdashboard/Dashboard/Dashboard/Dashboard.csproj",
+      "projectUniqueName": "C:\\Users\\z.mashhadizadeh\\Documents\\Dashboard\\Dashboard\\Dashboard.csproj",
       "projectName": "Dashboard",
-      "projectPath": "/home/mohammad/Desktop/backupdashboard/Dashboard/Dashboard/Dashboard.csproj",
-      "packagesPath": "/home/mohammad/.nuget/packages/",
-      "outputPath": "/home/mohammad/Desktop/backupdashboard/Dashboard/Dashboard/obj/",
+      "projectPath": "C:\\Users\\z.mashhadizadeh\\Documents\\Dashboard\\Dashboard\\Dashboard.csproj",
+      "packagesPath": "C:\\Users\\z.mashhadizadeh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\z.mashhadizadeh\\Documents\\Dashboard\\Dashboard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/mohammad/.config/NuGet/NuGet.Config"
+        "C:\\Users\\z.mashhadizadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -13173,7 +13178,6 @@
             "version": "[2.0.2, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true

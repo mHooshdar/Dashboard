@@ -1,0 +1,31 @@
+﻿@page
+@model Dashboard.Pages.RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+@section PageCSS{
+    <link href="@Url.Content("~/css/register.css")" rel="stylesheet" type="text/css" />
+}
+    <div class="row center-verticall">
+        <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+            <div class="general-box">
+                <div class="login-part">
+                    <form action="#">
+                        <p class="header-box">ثبت نام</p>
+                        <input class="login-textfield username-textfield" type="text" placeholder="نام">
+                        <input class="login-textfield username-textfield" type="text" placeholder="نام خانوادگی">
+                        <input class="login-textfield username-textfield" type="text" placeholder="نام کاربري">
+                        <input class="login-textfield password-textfield" type="password" placeholder="رمز عبور">
+                        <input class="login-page-button register-button" type="submit" value="ثبت نام">
+                    </form>
+                    
+                </div>
+                <hr class="hr-between">
+                <div class="register-part">
+                    <p class="login-text">دارای حساب کاربری هستید؟</p>
+                    <button onclick="window.location.href='#'" class="login-page-button login-button">ورود اعضا</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
