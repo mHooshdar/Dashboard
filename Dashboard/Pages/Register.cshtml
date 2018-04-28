@@ -12,9 +12,17 @@
                 <div class="login-part">
                     <form action="#">
                         <p class="header-box">ثبت نام</p>
-                        <input class="login-textfield username-textfield" type="text" placeholder="نام">
-                        <input class="login-textfield username-textfield" type="text" placeholder="نام خانوادگی">
-                        <input class="login-textfield username-textfield" type="text" placeholder="نام کاربري">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 textfeild-n">
+                                <input class="login-textfield-1 name-textfield" type="text" placeholder="نام">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 textfeild-f">
+                                <input class="login-textfield-1 fname-textfield" type="text" placeholder="نام خانوادگی">
+                            </div>
+                        </div>
+                        <img src="~/images/usericon.png" class="myicons" alt="usericon" />
+                        <input class="login-textfield username-textfield" type="text" placeholder="پست الکترونیکی">
+                        <img src="~/images/passwordicon.png" class="myicons" alt="passwordicon" />
                         <input class="login-textfield password-textfield" type="password" placeholder="رمز عبور">
                         <input class="login-page-button register-button" type="submit" value="ثبت نام">
                     </form>
