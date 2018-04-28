@@ -128,26 +128,31 @@
 
 .login-button {
     vertical-align: middle;
-    background-color: rgb(205, 204, 198);
+    background-color: rgb(126, 155, 133);
     margin-bottom: 15px;
     margin-top: 15px;
 }
 
 .login-button:hover {
-    background-color: rgb(170, 180, 180);
+    background-color: rgb(100, 125, 113);
 }
 
 .register-button {
-    background-color: rgb(126, 155, 133);
+    background-color: rgb(205, 204, 198);
 }
 
-    .register-button:hover {
-        background-color: rgb(100, 125, 113);
-    }
+.register-button:hover {
+    background-color: rgb(170, 180, 180);
+}
 
 .center-verticall {
     min-height: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
+}
+.validation-error ul {
+    color: rgb(255, 100, 100);
+    font-size: 13px;
+    list-style-type: none;
 }

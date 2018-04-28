@@ -128,6 +128,8 @@ namespace Dashboard.Data.Migrations
             modelBuilder.Entity("Dashboard.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id");
+                    b.Property<string>("Name");
+                    b.Property<string>("LastName");
 
                     b.Property<int>("AccessFailedCount");
 
