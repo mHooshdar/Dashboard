@@ -29,5 +29,10 @@ namespace Dashboard.Controllers
             _logger.LogInformation("User logged out.");
             return RedirectToPage("/Index");
         }
+
+        public ViewResult Register()
+        {
+            return View("Register");
+        }
     }
 }
