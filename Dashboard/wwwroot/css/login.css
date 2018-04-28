@@ -45,7 +45,6 @@ body {
     margin-bottom: 15px;
 }
 .password-textfield {
-    /*argin-top: 15px;*/
     margin-bottom: 20px;
 }
 .forgot-pass-link {
@@ -114,4 +113,9 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
+}
+.validation-error ul {
+    color: rgb(255, 100, 100);
+    font-size: 13px;
+    list-style-type: none;
 }

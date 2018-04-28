@@ -34,3 +34,15 @@ C:\Users\z.mashhadizadeh\Documents\Dashboard\Dashboard\obj\Debug\netcoreapp2.0\D
 C:\Users\z.mashhadizadeh\Documents\Dashboard\Dashboard\obj\Debug\netcoreapp2.0\Dashboard.AssemblyInfo.cs
 C:\Users\z.mashhadizadeh\Documents\Dashboard\Dashboard\obj\Debug\netcoreapp2.0\Dashboard.dll
 C:\Users\z.mashhadizadeh\Documents\Dashboard\Dashboard\obj\Debug\netcoreapp2.0\Dashboard.pdb
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\bin\Debug\netcoreapp2.0\Dashboard.deps.json
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\bin\Debug\netcoreapp2.0\Dashboard.runtimeconfig.json
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\bin\Debug\netcoreapp2.0\Dashboard.runtimeconfig.dev.json
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\bin\Debug\netcoreapp2.0\Dashboard.dll
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\bin\Debug\netcoreapp2.0\Dashboard.pdb
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\obj\Debug\netcoreapp2.0\Dashboard.csprojResolveAssemblyReference.cache
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\obj\Debug\netcoreapp2.0\Dashboard.csproj.CoreCompileInputs.cache
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\obj\Debug\netcoreapp2.0\Dashboard.AssemblyInfoInputs.cache
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\obj\Debug\netcoreapp2.0\Dashboard.AssemblyInfo.cs
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\obj\Debug\netcoreapp2.0\Dashboard.dll
+C:\Users\m.hooshdar\Desktop\Dashboard\Dashboard\obj\Debug\netcoreapp2.0\Dashboard.pdb

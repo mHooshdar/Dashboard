@@ -12,18 +12,23 @@
             <div class="login-part">
                 <form action="#">
                     <p class="header-box">ورود اعضا</p>
+                    <div asp-validation-summary="All" class="validation-error"></div>
                     <img src="~/images/usericon.png" class="myicons" alt="usericon" />
-                    <input class="login-textfield username-textfield" type="text" placeholder="نام کاربري">
+                    <input asp-for="Input.Email" class="login-textfield username-textfield" type="text" placeholder="پست الکترونیکی">
                     <img src="~/images/passwordicon.png" class="myicons" alt="passwordicon" />
-                    <input class="login-textfield password-textfield" type="password" placeholder="رمز عبور">
+                    <input asp-for="Input.Password" class="login-textfield password-textfield" type="password" placeholder="رمز عبور">
                     <input class="login-page-button login-button" type="submit" value="ورود به سيستم">
                 </form>
-                <a class="forgot-pass-link" href="#">رمز عبور خود را فراموش کرده ايد؟</a>
+                <a asp-page="./ForgotPassword" class="forgot-pass-link">رمز عبور خود را فراموش کرده ايد؟</a>
             </div>
             <hr class="hr-between">
             <div class="register-part">
                 <button onclick="window.location.href='#'" class="login-page-button register-button">ثبت نام</button>
             </div>
+            
         </div>
     </div>
 </div>
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
