@@ -40,12 +40,12 @@ namespace Dashboard.Pages
         public class InputModel
         {
             [Required(ErrorMessage = "نام وارد نشده است.")]
-            [StringLength(20, MinimumLength = 4, ErrorMessage = "حداقل طول {2} و حداکثر {1} می باشد.")]
+            [StringLength(20, MinimumLength = 4, ErrorMessage = "حداقل طول نام {2} و حداکثر {1} می باشد.")]
             [DataType(DataType.Text)]
             public string Name { get; set; }
 
             [Required(ErrorMessage = "نام خوانوادگی وارد نشده است.")]
-            [StringLength(20, MinimumLength = 4, ErrorMessage = "حداقل طول {2} و حداکثر {1} می باشد.")]
+            [StringLength(20, MinimumLength = 4, ErrorMessage = "حداقل طول نام خوانوادگی {2} و حداکثر {1} می باشد.")]
             [DataType(DataType.Text)]
             public string LastName { get; set; }
 
@@ -54,7 +54,7 @@ namespace Dashboard.Pages
             public string Email { get; set; }
 
             [Required(ErrorMessage = "رمز عبور وارد نشده است.")]
-            [StringLength(20, MinimumLength = 4, ErrorMessage = "حداقل طول {2} و حداکثر {1} می باشد.")]
+            [StringLength(20, MinimumLength = 4, ErrorMessage = "حداقل طول رمز عبور {2} و حداکثر {1} می باشد.")]
             [DataType(DataType.Password)]
             public string Password { get; set; }
         }
@@ -85,6 +85,10 @@ namespace Dashboard.Pages
                 }
                 foreach (var error in result.Errors)
                 {
+                    if(error.Code.Equals("DuplicateUserName"))
+                    {
+                        error.Description = "این نام کاربری وجود دارد.";
+                    }
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
