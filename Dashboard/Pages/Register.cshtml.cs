@@ -40,12 +40,12 @@ namespace Dashboard.Pages
         public class InputModel
         {
             [Required(ErrorMessage = "نام وارد نشده است.")]
-            [StringLength(20, MinimumLength = 4, ErrorMessage = "حداقل طول نام {2} و حداکثر {1} می باشد.")]
+            [StringLength(20, MinimumLength = 2, ErrorMessage = "حداقل طول نام {2} و حداکثر {1} می باشد.")]
             [DataType(DataType.Text)]
             public string Name { get; set; }
 
             [Required(ErrorMessage = "نام خوانوادگی وارد نشده است.")]
-            [StringLength(20, MinimumLength = 4, ErrorMessage = "حداقل طول نام خوانوادگی {2} و حداکثر {1} می باشد.")]
+            [StringLength(20, MinimumLength = 2, ErrorMessage = "حداقل طول نام خوانوادگی {2} و حداکثر {1} می باشد.")]
             [DataType(DataType.Text)]
             public string LastName { get; set; }
 

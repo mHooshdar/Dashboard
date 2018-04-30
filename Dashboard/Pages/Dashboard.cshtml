@@ -4,20 +4,80 @@
     ViewData["Title"] = "Dashboard";
 }
 @section PageCSS{
-<link href="@Url.Content("~/css/dashboard.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/dashboard.css")" rel="stylesheet" type="text/css" />
+    <script src="js/Highcharts-6.1.0/code/highcharts.js"></script>
+    <script src="js/Highcharts-6.1.0/code/themes/dark-unica.js"></script>
+@*    <script src="js/Highcharts-6.1.0/code/modules/exporting.js"></script>*@
+@*    <script src="js/Highcharts-6.1.0/code/modules/export-data.js"></script>*@
 }
 <h2>Dashboard</h2>
-<div class="row">
-    <div class="dashboard-box col-lg-3">
-        a
+<div class="row dashboard-row">
+    <div class="col-lg-3">
+        <div class="dashboard-box">
+            <p class="header">
+                قیمت سکه
+            </p>
+            a
+        </div>
     </div>
-    <div class="dashboard-box col-lg-3">
-        a
+    <div class="col-lg-3">
+        <div class="dashboard-box">
+            <p class="header">
+                قیمت سکه
+            </p>
+            a
+        </div>
     </div>
-    <div class="dashboard-box col-lg-3">
-        a
+    <div class="col-lg-3">
+        <div class="dashboard-box">
+            <p class="header">
+                قیمت سکه
+            </p>
+            a
+        </div>
     </div>
-    <div class="dashboard-box col-lg-3">
-        a
+    <div class="col-lg-3">
+        <div class="dashboard-box">
+            <p class="header">
+                قیمت سکه
+            </p>
+            a
+        </div>
     </div>
 </div>
+
+<div class="row dashboard-row">
+    <div class="col-lg-6">
+        <div class="dashboard-box">
+            <p class="header">
+                قیمت سکه
+            </p>
+            <div id="container"></div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="dashboard-box">
+            <p class="header">
+                قیمت سکه
+            </p>
+            <div id="container2"></div>
+        </div>
+    </div>
+</div>
+<div class="row dashboard-row">
+    <div class="col-lg-12">
+        <div class="dashboard-box">
+            <p class="header">
+                قیمت سکه
+            </p>
+            <div id="my-container"></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script src="js/test.js"></script>
+    <script src="js/test1.js"></script>
+    <script src="js/test2.js"></script>
+}
