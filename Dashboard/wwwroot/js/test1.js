@@ -1,53 +1,18 @@
-Highcharts.chart('container', {
+Highcharts.chart('chart1', {
     chart: {
-        type: 'area'
+        type: 'area',
+        backgroundColor:'rgba(255, 255, 255, 0.0)'
     },
     title: {
         text: 'منابع هسته ای آمریکا'
     },
-    subtitle: {
-        text: 'Sources: <a href="https://thebulletin.org/2006/july/global-nuclear-stockpiles-1945-2006">' +
-        'thebulletin.org</a> &amp; <a href="https://www.armscontrol.org/factsheets/Nuclearweaponswhohaswhat">' +
-        'armscontrol.org</a>'
-    },
-    xAxis: {
-        allowDecimals: false,
-        labels: {
-            formatter: function () {
-                return this.value; // clean, unformatted number for year
-            }
-        }
-    },
     yAxis: {
         title: {
-            text: 'جنگ هسته ای'
+            text: 'جنگ هسته ای',
         },
-        labels: {
-            formatter: function () {
-                return this.value / 1000 + 'k';
-            }
-        }
-    },
-    tooltip: {
-        pointFormat: '{series.name} had stockpiled <b>{point.y:,.0f}</b><br/>warheads in {point.x}'
-    },
-    plotOptions: {
-        area: {
-            pointStart: 1940,
-            marker: {
-                enabled: false,
-                symbol: 'circle',
-                radius: 2,
-                states: {
-                    hover: {
-                        enabled: true
-                    }
-                }
-            }
-        }
     },
     series: [{
-        name: 'USA',
+        name: 'آمریکا',
         data: [
             null, null, null, null, null, 6, 11, 32, 110, 235,
             369, 640, 1005, 1436, 2063, 3057, 4618, 6444, 9822, 15468,
@@ -59,7 +24,7 @@ Highcharts.chart('container', {
             5113, 5113, 4954, 4804, 4761, 4717, 4368, 4018
         ]
     }, {
-        name: 'USSR/Russia',
+        name: 'روسیه',
         data: [null, null, null, null, null, null, null, null, null, null,
             5, 25, 50, 120, 150, 200, 426, 660, 869, 1060,
             1605, 2471, 3322, 4238, 5221, 6129, 7089, 8339, 9399, 10538,

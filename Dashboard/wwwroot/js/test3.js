@@ -7,7 +7,7 @@ $.ajax({
         yText = chartData.yText;
         series = chartData.series;
 
-        var myChart = Highcharts.chart('chart', {
+        var myChart = Highcharts.chart('chart3', {
             chart: {
                 type: 'bar',
                 backgroundColor:'rgba(255, 255, 255, 0.0)'
@@ -27,6 +27,6 @@ $.ajax({
         });
     },
     error: function(jqXHR, textStatus, errorThrown) {
-        
+
     }
 });

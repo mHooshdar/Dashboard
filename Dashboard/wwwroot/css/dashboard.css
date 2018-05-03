@@ -1,12 +1,10 @@
 body {
     background: rgb(31, 31, 31);
 }
-.dashboard-row{
-    margin-bottom: 30px;
-}
 .dashboard-box{
     background: rgb(51, 51, 51);
     color: rgb(255, 255, 255);
+    margin-bottom: 30px;
 }
 .dashboard-box .header{
     border-bottom: 1px solid rgb(150, 150, 150);
@@ -15,3 +13,48 @@ body {
     text-align: center;
     font-weight: bold;
 }
+.chart{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.carousel-cell {
+    width: 100%;
+}
+.flickity-button {
+    background: rgba(255, 255, 255, 0);
+}
+.flickity-button:hover {
+    background: rgba(255, 255, 255, 0);
+}
+.flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.flickity-button-icon {
+    fill: white;
+}
+.flickity-prev-next-button.previous {
+    /*left: -40px;*/
+}
+.flickity-prev-next-button.next {
+    /*right: -40px;*/
+}
+
+
+
+/*.flickity-slider {*/
+    /*transform: none !important;*/
+/*}*/
+/*.gallery-cell {*/
+    /*left: 0 !important;*/
+    /*opacity: 0;*/
+    /*transition: opacity 0.3s ease-in-out;*/
+    /*z-index: -1;*/
+/*}*/
+/*.gallery-cell.is-selected {*/
+    /*opacity: 1;*/
+    /*z-index: 0*/
+/*}*/
